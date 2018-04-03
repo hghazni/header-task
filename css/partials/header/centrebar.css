@@ -1,6 +1,13 @@
 .header__centrebar {
     background-color: var(--secondary);
     padding: 2rem 0;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 60px; }
+    @media (max-width: 770px) {
+    .header__centrebar { justify-content: center; }
 }
 
 .header__centrebar--selco-logo img {
@@ -8,7 +15,46 @@
     padding: 0 1rem;
 }
 
-.header__centrebar {
+.header__branches-sign-in {
     display: flex;
     flex-flow: row;
+    margin: 0 1rem 0 auto;
+}
+
+.header__branches, .header__sign-in {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 0.75rem;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.fa-map-marker-alt.branches { font-size: 2rem; }
+.fas,.fa-lock.sign-in { padding-bottom: 5px; }
+
+.header__branches,.header__sign-in:hover {
+    cursor: pointer;
+}
+
+.branches__link {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.header__sign-in {
+    background-color: var(--primary-light);
+    border: solid 1px var(--primary-light);
+    border-radius: 15px;
+    padding-top: 1.25rem;
+    padding-bottom: 1rem;
+    color: white;
+    width: 80px;
+    height: 35px;
+}
+
+.sign-in__link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    text-transform: uppercase;
 }

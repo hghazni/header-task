@@ -44,26 +44,43 @@
 
                     <!-- Search Bar -->
                     <div class="search">
-                        <form action="submit">
+                        <form class="search__form" action="submit">
                             <!-- Search Input -->
                             <input type="text" class="search__input" placeholder="Search (e.g. Bricks, Bosch, 5mm)">
                             <!-- Search Button -->
-                            <button type="submit">Search</button>
+                            <button class="search__button" type="submit"><i class="fas fa-search"></i></button>
                         </form>
                     </div>
 
-                    <!-- Branches -->
-                    <!-- Sign in -->
+                    <div class="header__branches-sign-in">
+                        <!-- Branches -->
+                        <div class="header__branches">
+                                <i class="fas fa-map-marker-alt branches"></i>
+                                <a class="branches__link" href="branches">Branches</a>
+                        </div>
+                        <!-- Sign in -->
+                        <div class="header__sign-in">
+                                <i class="fas fa-lock sign-in"></i>
+                                <a class="sign-in__link" href="branches">Sign In</a>
+                        </div> 
+                    </div>
                 </div>
             </div>
 
-
-
             <!-- Desktop Menu -->
-            <div class="header__menu">
-
+            <div class="menu-desktop">
+                <ul class="menu">
+                    <li class="menu--item">
+                        <i class="fas fa-home desk-menu"></i>
+                    </li>
+                    <li class="menu__item">Products</li>
+                    <li class="menu__item">Special offers</li>
+                    <li class="menu__item">Trade Services</li>
+                    <li class="menu__item">Get a Trade Card</li>
+                    <li class="menu__item">Tool & Plant Hire</li>
+                    <li class="menu__item">Contact Us</li>
+                </ul>
             </div>
-
 
             <!-- Delivery Information -->
             <div class="header__delivery">
@@ -73,5 +90,8 @@
                 <div class="header__delivery--info"></div>
             </div>
     </div>
+    
+<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+
 </body>
 </html>

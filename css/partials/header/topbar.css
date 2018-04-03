@@ -12,6 +12,7 @@
 
 /* Category */
 .header__topbar--category { width: 80%; }
+.category__link:first-of-type { margin-right: -3px; }
 
 /* Category Link */
 .category__link { 
@@ -56,3 +57,5 @@
     color: white;
     text-decoration: none;
 }
+
+.signin-register__link:hover { text-decoration: underline; }
