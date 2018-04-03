@@ -1,7 +1,9 @@
 /*================================= 
               COLOURS
 ==================================*/
-/* Primary colour */
+
 :root {
-    --primary-colour: #004177;
+    --primary: #004177;
+    --secondary: #ffcf00;
+    --ribbon-bg: #ed3124;
 }
