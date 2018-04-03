@@ -2,6 +2,5 @@
               GENERAL
 ==================================*/
 body, html {
-    background: white;
     color: var(--primary-colour);
 }
