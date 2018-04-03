@@ -1,0 +1,18 @@
+/*================================= 
+              IMPORTS
+==================================*/
+/*=/ Core /=*/
+@import "core/colours.css"; /* Colours */
+@import "core/fonts.css"; /* Fonts */
+@import "core/general.css"; /* General */
+
+/*=/ Partials /=*/
+@import "partials/buttons.css"; /* Buttons */
+@import "partials/search.css"; /* Search Bar */
+@import "partials/menu.css"; /* Desktop Menu */
+@import "partials/drop-menu.css"; /* Dropdown Desktop Menu */
+@import "partials/mob-menu.css"; /* Mobile Menu */
+
+* {
+    font-family: Norwester;
+}

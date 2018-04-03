@@ -1,0 +1,12 @@
+{
+  "name": "selco-header",
+  "version": "1.0.0",
+  "description": "A Junior Front End Developer test to build the Selco header in the most simple way possible",
+  "main": "index.js",
+  "author": "Harry Ghazni",
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1"
+  }
+}
