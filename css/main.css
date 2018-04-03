@@ -8,8 +8,9 @@
 
 /*=/ Partials /=*/
 /*= Header */
+@import "partials/header/header.css"; /* General Header */
 @import "partials/header/topbar.css"; /* Top bar */
-@import "partials/header/centerbar.css"; /* Center bar */
+@import "partials/header/centrebar.css"; /* Centre bar */
 @import "partials/header/delivery.css"; /* Delivery Info */
 
 /*= Components */

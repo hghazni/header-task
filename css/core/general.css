@@ -1,7 +1,13 @@
 /*================================= 
               GENERAL
 ==================================*/
+
 body, html {
     color: var(--primary);
     margin: 0;
+}
+
+.container { 
+    max-width: 1200px;
+    margin: auto;
 }

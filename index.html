@@ -8,35 +8,62 @@
     <link rel="icon" href="https://www.selcobw.com/media/favicon/default/Selco-favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <div class="container">
-        <!-- Ribbon -->
-        <div class="ribbon">
-            <a class="ribbon__link" href="https://www.selcobw.com/info/march-madness/">
-                <strong>MARCH <i>MADNESS</i> EXTENDED:</strong> <span class="ribbon__link--normalweight">Earn Points to Exchange for Sainsbury’s Vouchers! Plus, Get FREE Delivery!</span></a>
-        </div>
-
+    <!-- Ribbon -->
+    <div class="ribbon">
+        <a class="ribbon__link" href="https://www.selcobw.com/info/march-madness/">
+            <strong>MARCH <i>MADNESS</i> EXTENDED:</strong> <span class="ribbon__link--normalweight">Earn Points to Exchange for Sainsbury’s Vouchers! Plus, Get FREE Delivery!</span></a>
+    </div>
+    
+    
         <!-- Header -->
         <div class="header">
-
-            <!-- Header Category Bar & User Account -->
-            <div class="header__topbar">
-                    <div class="header__topbar--category"></div>
-                    <div class="header__topbar--signin-register"></div>
+            <div class="bg__primary">
+                <!-- Header Category Bar & User Account -->
+                <div class="header__topbar container">
+                        <div class="header__topbar--category">
+                            <a class="category__link active" href="#">Materials</a>
+                            <a class="category__link" href="#">Hire</a>
+                            <a class="category__link" href="#">Careers</a>
+                            <a class="category__link" href="#">Projects</a>
+                        </div>
+                        <div class="header__topbar--signin-register">
+                                <a class="signin-register__link" href="#">Sign In</a>
+                                <span class="link__divider"> | </span>
+                                <a class="signin-register__link" href="#">Register</a>
+                        </div>
+                </div>
             </div>
 
-            <!-- Header Center -->
-            <div class="header__centerbar">
-                <!-- Menu -->
-                <!-- Branches -->
-                <!-- Logo -->
-                <!-- Sign in -->
+            <!-- Header Centre -->
+            <div class="bg__secondary">
+                <div class="header__centrebar container">
+                    <!-- Logo -->
+                    <div class="header__centrebar--selco-logo">
+                        <img src="./assets/images/logo.png" title="Selco Builders Warehouse" alt="Selco Logo">
+                    </div>
+
+                    <!-- Search Bar -->
+                    <div class="search">
+                        <form action="submit">
+                            <!-- Search Input -->
+                            <input type="text" class="search__input" placeholder="Search (e.g. Bricks, Bosch, 5mm)">
+                            <!-- Search Button -->
+                            <button type="submit">Search</button>
+                        </form>
+                    </div>
+
+                    <!-- Branches -->
+                    <!-- Sign in -->
+                </div>
             </div>
 
-            <!-- Search Bar -->
-            <div class="header__search">
-                <!-- Search Input -->
-                <!-- Search Button -->
+
+
+            <!-- Desktop Menu -->
+            <div class="header__menu">
+
             </div>
+
 
             <!-- Delivery Information -->
             <div class="header__delivery">
@@ -45,8 +72,6 @@
                 <!-- Next Day Delivery -->
                 <div class="header__delivery--info"></div>
             </div>
-
-        </div>
     </div>
 </body>
 </html>

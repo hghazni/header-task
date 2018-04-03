@@ -20,5 +20,8 @@
 }
 
 /* Ribbon link */
-.ribbon__link { color: white; text-decoration: unset; }
+.ribbon__link { 
+    color: white; 
+    text-decoration: unset; }
+    
 .ribbon__link:hover { text-decoration: underline; }

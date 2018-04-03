@@ -1,0 +1,14 @@
+.header__centrebar {
+    background-color: var(--secondary);
+    padding: 2rem 0;
+}
+
+.header__centrebar--selco-logo img {
+    width: 200px;
+    padding: 0 1rem;
+}
+
+.header__centrebar {
+    display: flex;
+    flex-flow: row;
+}
