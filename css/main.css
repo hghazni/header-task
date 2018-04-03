@@ -7,9 +7,15 @@
 @import "core/general.css"; /* General */
 
 /*=/ Partials /=*/
-@import "partials/ribbon.css"; /* Ribbon */
-@import "partials/buttons.css"; /* Buttons */
-@import "partials/search.css"; /* Search Bar */
-@import "partials/menu.css"; /* Desktop Menu */
-@import "partials/drop-menu.css"; /* Dropdown Desktop Menu */
-@import "partials/mob-menu.css"; /* Mobile Menu */
+/*= Header */
+@import "partials/header/topbar.css"; /* Top bar */
+@import "partials/header/centerbar.css"; /* Center bar */
+@import "partials/header/delivery.css"; /* Delivery Info */
+
+/*= Components */
+@import "components/ribbon.css"; /* Ribbon */
+@import "components/buttons.css"; /* Buttons */
+@import "components/search.css"; /* Search Bar */
+@import "components/menu.css"; /* Desktop Menu */
+@import "components/drop-menu.css"; /* Desktop Dropdown Menu */
+@import "components/mob-menu.css"; /* Mobile Menu */
