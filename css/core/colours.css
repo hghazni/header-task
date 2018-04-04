@@ -8,6 +8,7 @@
     --primary-dark: #002544;
     --secondary: #ffcf00;
     --ribbon-bg: #ed3124;
+    --delivery-bg: #f3f7fa;
 }
 
 .bg__primary { background-color: var(--primary); }

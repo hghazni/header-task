@@ -7,28 +7,48 @@
     display: flex;
     flex-flow: row;
     align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
     list-style-type: none;
-    justify-content: center;
-    margin: 0;
+    margin: auto;
     padding: 0;
 }
 
 .fas,.fa-home.desk-menu { 
     color: white;
     font-size: 1.5rem;
- }
+    height: 3rem;
+    padding: 0 1rem;}
+.fas,.fa-home.desk-menu:hover { 
+    background-color: var(--primary);
+    }
+
+.fa-caret-down.menu {
+    font-size: 1.25rem;
+    opacity: 0.7;
+    padding-bottom: 0.15rem;
+}
 
 .menu__item {
     display: flex;
     align-items: center;
     font-family: 'Norwester', sans-serif;
     font-weight: normal;
-    font-size: 1.1rem;
+    font-size: 1rem;
     letter-spacing: 1.25px;
-    padding: 0 0.5rem;
-    margin: 0 0.75rem;
+    padding: 0 1.25rem;
+    text-transform: uppercase;
     color: white;
-    height: 4rem;
+    height: 3rem;}
+    @media (max-width:990px) {
+    .menu__item {
+    padding:0 1rem;
+    font-size: 0.9rem;
+}}
+.menu__item span { padding-right: 1rem }
+.menu__item:first-of-type,.menu__item:hover > .fa-caret-down.menu {
+    transform: rotate(180deg);
+    transition-delay: 0.5s;
 }
 
 .menu__item:hover {
