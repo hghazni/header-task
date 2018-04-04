@@ -11,14 +11,16 @@
     max-width: 1200px;
     list-style-type: none;
     margin: auto;
-    padding: 0;
-}
+    padding: 0;}
+    @media (max-width: 900px) {
+    .menu {
+    display: none;}}
 
 .fas,.fa-home.desk-menu { 
     color: white;
     font-size: 1.5rem;
     height: 2.5rem;
-    padding: 0 1rem;}
+    padding: 0 0.5rem;}
 .fas,.fa-home.desk-menu:hover { 
     background-color: var(--primary);
     }
@@ -35,7 +37,7 @@
     font-family: 'Norwester', sans-serif;
     font-size: 1.1rem;
     letter-spacing: 1.25px;
-    padding: 0 1rem;
+    padding: 0 0.5rem;
     text-transform: uppercase;
     color: white;
     -webkit-font-smoothing: antialiased;

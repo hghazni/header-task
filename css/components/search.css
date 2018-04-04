@@ -40,3 +40,17 @@
 .search__button:hover {
     cursor: pointer;
 }
+
+/* Mobile */
+
+.search.mobile {
+    width: 100%;}
+@media (max-width: 400px) {
+    .search.mobile {
+    width: 100%;
+    margin: auto;
+    padding: 0 1rem;}
+    .search__input {
+    min-width: unset;
+    }
+}

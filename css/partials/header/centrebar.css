@@ -7,7 +7,9 @@
     align-items: center;
     height: 60px; }
     @media (max-width: 770px) {
-    .header__centrebar { justify-content: center; }
+    .header__centrebar { justify-content: center; }}
+    @media (max-width: 900px) {
+    .header__centrebar { display: none;  }
 }
 
 .header__centrebar--selco-logo img {
@@ -58,3 +60,18 @@
     font-size: 1.1rem;
     text-transform: uppercase;
 }
+
+/* Mobile Centre Bar */
+.header__centrebar-mob {
+    display: none;
+}
+@media(max-width: 900px) {
+.header__centrebar-mob {
+    background-color: var(--secondary);
+    padding: 2rem 0;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 60px;
+}}
