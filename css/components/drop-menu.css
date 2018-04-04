@@ -1,5 +1,12 @@
 .dropdown-nav__wrapper {
     background-color: var(--primary);
+    display: block;
+    position: absolute;
+    width: 100%;
+    max-width: 1200px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
 }
 
 .dropdown-nav {

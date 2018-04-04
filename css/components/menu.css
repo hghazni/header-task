@@ -47,7 +47,6 @@
     font-size: 0.9rem;
 }}
 
-.menu__item:first-of-type,.menu__item:hover > 
 .menu__item span { padding-right: 1rem }
 .menu__item:first-of-type,.menu__item:hover > .fa-caret-down.menu {
     transform: rotate(180deg);
