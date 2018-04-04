@@ -17,7 +17,7 @@
 .fas,.fa-home.desk-menu { 
     color: white;
     font-size: 1.5rem;
-    height: 3rem;
+    height: 2.5rem;
     padding: 0 1rem;}
 .fas,.fa-home.desk-menu:hover { 
     background-color: var(--primary);
@@ -33,18 +33,21 @@
     display: flex;
     align-items: center;
     font-family: 'Norwester', sans-serif;
-    font-weight: normal;
-    font-size: 1rem;
+    font-size: 1.1rem;
     letter-spacing: 1.25px;
-    padding: 0 1.25rem;
+    padding: 0 1rem;
     text-transform: uppercase;
     color: white;
-    height: 3rem;}
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 2.5rem;}
     @media (max-width:990px) {
     .menu__item {
     padding:0 1rem;
     font-size: 0.9rem;
 }}
+
+.menu__item:first-of-type,.menu__item:hover > 
 .menu__item span { padding-right: 1rem }
 .menu__item:first-of-type,.menu__item:hover > .fa-caret-down.menu {
     transform: rotate(180deg);
