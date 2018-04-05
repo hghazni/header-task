@@ -22,14 +22,14 @@
                 <div class="header__topbar container">
                         <div class="header__topbar--category">
                             <a class="category__link active" href="#">Materials</a>
-                            <a class="category__link" href="#">Hire</a>
-                            <a class="category__link" href="#">Careers</a>
-                            <a class="category__link" href="#">Projects</a>
+                            <a class="category__link" href="#hire">Hire</a>
+                            <a class="category__link" href="#careers">Careers</a>
+                            <a class="category__link" href="#projects">Projects</a>
                         </div>
                         <div class="header__topbar--signin-register">
-                                <a class="signin-register__link" href="#">Sign In</a>
+                                <a class="signin-register__link" href="#sign-in">Sign In</a>
                                 <span class="link__divider"> | </span>
-                                <a class="signin-register__link" href="#">Register</a>
+                                <a class="signin-register__link" href="#register">Register</a>
                         </div>
                 </div>
             </div>
@@ -39,7 +39,7 @@
                 <div class="header__centrebar container">
                     <!-- Logo -->
                     <div class="header__centrebar--selco-logo">
-                        <img src="./assets/images/logo.png" title="Selco Builders Warehouse" alt="Selco Logo">
+                       <a href="./"> <img src="./assets/images/logo.png" title="Selco Builders Warehouse" alt="Selco Logo"></a>
                     </div>
 
                     <!-- Search Bar -->
@@ -79,7 +79,7 @@
                         <!-- Branches -->
                         <div class="header__centremob--branches">
                             <div class="branches__mob">
-                                <a href="#">
+                                <a href="#branches">
                                     <i class="fas fa-map-marker-alt mobbranches"></i>
                                         <p>branches</p>
                                     </a>
@@ -87,12 +87,13 @@
                         </div>
                         <!-- Logo -->
                         <div class="header__centremob--logo">
-                            <img src="./assets/images/logo.png" title="Selco Builders Warehouse" alt="Selco Logo">
+                            <a href="./"><img src="./assets/images/logo.png" title="Selco Builders Warehouse" alt="Selco Logo"></a>
                         </div>
                         <!-- Sign in -->
                         <div class="header__centremob--signin">
-                            <a href="#">
-                                <p>Sign in</p>
+                            <a href="#sign-in">
+                                <i class="fas fa-lock mobsign-in"></i>
+                                <p>Sign In</p>
                             </a>
                         </div>
                     </div>  
@@ -167,7 +168,7 @@
                 <!-- Click and Collect -->
                 <div class="header__delivery--info">
                         <i class="fas fa-mouse-pointer clickcollect"></i>
-                    <a href="" class="delivery__link"><strong>FREE Click & Collect</strong> - Save time. Buy online, collect in-branch in 30 minutes</a>
+                    <a href="#click-and-collect" class="delivery__link"><strong>FREE Click & Collect</strong> - Save time. Buy online, collect in-branch in 30 minutes</a>
                 </div>
 
                 <span class="delivery__divider"> | </span>
@@ -175,16 +176,80 @@
                 <!-- Next Day Delivery -->
                 <div class="header__delivery--info">
                         <i class="fas fa-truck nextday"></i>
-                        <a href="" class="delivery__link"><strong>FREE Next Day Delivery</strong> - On all courier delivery orders in March!</a>
+                        <a href="#next-day-delivery" class="delivery__link"><strong>FREE Next Day Delivery</strong> - On all courier delivery orders in March!</a>
                 </div>
             </div>
     </div>
+
+    <!-- Close Button -->
+    <div class="mobile-menu__close">
+        <i class="fas fa-times mobclose"></i>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu__wrapper">
+        <div class="mobile-menu">
+            <!-- Sign-in/Register -->
+            <div class="mobile-menu__top">
+                <div class="col"><a href="#sign-in">Sign In</a></div>
+                <div class="col"><a href="#register">Register</a></div>
+            </div>
+            <!-- Products -->
+            <div class="mobile-menu__products">
+                <div class="col"><a href="#products">Products</a></div>
+                <div class="col"><a href="#products">
+                    <i class="fas fa-caret-down mobmenu"></i>
+                </a></div>
+            </div>
+            <div class="mobile-menu__products--open">
+                <ul class="products__col">
+                    <li>Bathrooms</li>
+                    <li>Building Materials</li>
+                    <li>Door Furniture, Ironmongery & Locks</li>
+                    <li>Flooring & Tiling</li>
+                    <li>Insulation</li>
+                    <li>Landscaping & Fencing</li>
+                    <li>Plaster & Drylining</li>
+                    <li>Plumbing & Heating</li>
+                    <li>Safety Wear & Clothing</li>
+                    <li>Sealants & Adhesives</li>
+                </ul>
+                <ul class="products__col">
+                    <li>Builders Equipment & Cleaning</li>
+                    <li>Doors, Windows & Stairs</li>
+                    <li>Electrical, Lighting & Ventilation</li>
+                    <li>Hand & Power Tools</li>
+                    <li>Kitchens</li>
+                    <li>Painting & Decorating</li>
+                    <li>Plastics & Drainage</li>
+                    <li>Roofing</li>
+                    <li>Screws, Nails & Fixings</li>
+                    <li>Timber, MDF & Sheet Materials</li>
+                </ul>
+            </div>
+            <ul class="mobile-menu__list">
+                <li class="navitem"><a href="#special-offers">Special Offers</a></li>
+                <li class="navitem"><a href="#trade-services">Trade Services</a></li>
+                <li class="navitem"><a href="#trade-card">Trade Card</a></li>
+                <li class="navitem"><a href="#tool-and-plant-hire">Tool & Plant Hire</a></li>
+                <li class="navitem"><a href="#contact-us">Contact Us</a></li>
+            </ul>
+            <ul class="mobile-menu__list secondary">
+                    <li class="navitem"><a href="#Hire">Hire</a></li>
+                    <li class="navitem"><a href="#careers">careers</a></li>
+                    <li class="navitem"><a href="#projects">Projects</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="mobile-menu__overlay"></div>
+
     <script src="js/vendor/jquery-min.js"></script>
     <script src="js/main.js"></script>
     <!-- Konami has the answer -->
     <script src="js/easteregg.js"></script>
 
-    <!-- Font Awesome CDN -->
+    <!-- Font Awesome -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 
 </body>

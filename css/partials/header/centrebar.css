@@ -81,14 +81,16 @@
 
 /* Header Center wrapper (Mobile) */
 .header__centremob {
-    /* display: flex; */
     display: grid;
     grid-template-columns: 1fr 1fr 10.5fr 2fr;
     flex-flow: row;
     align-items: center;
     padding: 0 1rem;
-    font-family: 'PT Sans', sans-serif;
-}
+    font-family: 'PT Sans', sans-serif;}
+    @media (max-width: 400px) {
+    .header__centremob {
+    grid-template-columns: 1fr 1fr 10.5fr 3fr;
+    }}
 
 /* Hamburger Menu */
 .header__centremob--menu {
@@ -126,8 +128,14 @@
 }
 .header__centremob--logo img {
     width: 150px;
-    padding: 0 2rem;
-}
+    padding: 0 2rem;}
+    @media (max-width: 600px) {
+    .header__centremob--logo img {
+    width: 100px;}}
+    @media (max-width: 400px) {
+    .header__centremob--logo img {
+    width: 80px;
+    }}
 
 /* Sign in (Mobile) */
 .header__centremob--signin {
@@ -135,5 +143,10 @@
 }
 .header__centremob--signin a {
     text-decoration: none;
-    color: var(--primary-light);
+    color: var(--primary-light);}
+.header__centremob--signin p {
+    margin: 0.1rem 0;
+    }
+.fas.fa-lock,.mobsign-in {
+    font-size: 1rem;
 }

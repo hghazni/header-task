@@ -1,10 +1,13 @@
 /*===============================
-Desktop Dropdown Nav Functionality
+Desktop Dropdown Menu
 ================================*/
 $(document).ready(function() {
-    // Hides the menu on document load
+    // Hides menu(s) on document load
     $(".dropdown-nav__wrapper").hide();
-
+    $(".mobile-menu__wrapper").hide();
+        // Hides Mobile Overlay background
+        $(".mobile-menu__overlay").hide();
+        
     // Toggles the dropdown menu
     $(".menu__item:nth-of-type(2)").mouseenter(function(){
         $('.dropdown-nav__wrapper').delay(70).fadeToggle();
@@ -22,3 +25,19 @@ $(document).ready(function() {
         return false;
      }); 
 });
+
+/*===============================
+Mobile Menu
+================================*/
+$(".header__centremob--menu").click(function() {
+    $(".mobile-menu__wrapper").toggle();
+    $(".mobile-menu__overlay").toggle();
+    $(".mobclose").toggle();
+})
+
+// Close Button
+$(".mobile-menu__close").click(function() {
+    $(".mobile-menu__wrapper").toggle();
+    $(".mobile-menu__overlay").toggle();
+    $(".mobclose").toggle();
+})
