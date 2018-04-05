@@ -7,6 +7,8 @@ $(document).ready(function() {
     $(".mobile-menu__wrapper").hide();
         // Hides Mobile Overlay background
         $(".mobile-menu__overlay").hide();
+    // Hides Products Menu
+    $(".mobile-menu__products--open").hide();
         
     // Toggles the dropdown menu
     $(".menu__item:nth-of-type(2)").mouseenter(function(){
@@ -40,4 +42,9 @@ $(".mobile-menu__close").click(function() {
     $(".mobile-menu__wrapper").toggle();
     $(".mobile-menu__overlay").toggle();
     $(".mobclose").toggle();
+})
+
+// Products Button
+$(".mob-products").click(function() {
+    $(".mobile-menu__products--open").toggle();
 })
