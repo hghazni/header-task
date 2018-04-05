@@ -1,3 +1,6 @@
+/*================================= 
+              HEADER
+==================================*/
 .bg__secondary.header {}
 @media (max-width: 900px) {
     .bg__secondary.header {

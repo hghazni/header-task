@@ -1,3 +1,6 @@
+/*================================= 
+        HEADER > DELIVERY
+==================================*/
 .header__delivery {
     background-color: var(--delivery-bg);
     padding: 1.5rem;
@@ -6,10 +9,16 @@
     align-items: center;
     flex-wrap: wrap;}
 
+
 .header__delivery--info {
     display: flex;
     flex-flow: row;
  }
+
+    @media (max-width: 600px) {
+    .header__delivery--info span {
+    display: none;
+    }}
 
 .delivery__link { 
     color: var(--primary);
@@ -39,5 +48,11 @@
 .delivery__divider {
     padding: 0 1rem;}
     @media (max-width: 1030px) {
+    .delivery__divider {
+    display: none;}}
+    @media (max-width: 600px) {
+    .delivery__divider {
+    display: unset;}}
+    @media (max-width: 400px) {
     .delivery__divider {
     display: none;}}

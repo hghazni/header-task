@@ -35,6 +35,7 @@ $(".header__centremob--menu").click(function() {
     $(".mobile-menu__wrapper").toggle();
     $(".mobile-menu__overlay").toggle();
     $(".mobclose").toggle();
+    $(".mobile-menu__wrapper").toggleClass("active");
 })
 
 // Close Button
@@ -42,9 +43,12 @@ $(".mobile-menu__close").click(function() {
     $(".mobile-menu__wrapper").toggle();
     $(".mobile-menu__overlay").toggle();
     $(".mobclose").toggle();
+    $(".mobile-menu__wrapper").removeClass("active");
 })
 
 // Products Button
 $(".mob-products").click(function() {
     $(".mobile-menu__products--open").toggle();
+    $(".col.caret").toggleClass("active");
+    $(".col.caret a").toggleClass("active");
 })
