@@ -45,7 +45,6 @@
 }
 
 /* Mobile */
-
 .search.mobile {
     width: 100%;}
 @media (max-width: 400px) {
@@ -55,5 +54,4 @@
     padding: 0 1rem;}
     .search__input {
     min-width: unset;
-    }
-}
+}}

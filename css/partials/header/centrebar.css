@@ -126,9 +126,6 @@
     }
 
 /* Logo (Mobile) */
-.header__centremob--logo {
-    
-}
 .header__centremob--logo img {
     width: 150px;
     padding: 0 2rem;}
