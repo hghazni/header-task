@@ -61,27 +61,33 @@
     text-transform: uppercase;
 }
 
+/*==== Mobile ====*/
+
 /* Mobile Centre Bar */
 .header__centrebar-mob {
     display: none;}
     @media(max-width: 900px) {
     .header__centrebar-mob {
     background-color: var(--secondary);
-    padding: 2rem 0;
+    padding: 1rem 0;
     display: flex;
     flex-flow: row;
     flex-wrap: wrap;
     align-items: center;
+    text-align: center;
     width: 100%;
     height: 60px;
 }}
 
 /* Header Center wrapper (Mobile) */
 .header__centremob {
-    display: flex;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 10.5fr 2fr;
     flex-flow: row;
     align-items: center;
     padding: 0 1rem;
+    font-family: 'PT Sans', sans-serif;
 }
 
 /* Hamburger Menu */
@@ -89,7 +95,14 @@
     display: flex;
     width: 20%;
     padding: 0 1rem;
-    font-size: 1.2rem;
+    text-align: center;
+    color: var(--primary-light);}
+.header__centremob--menu p {
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 0;}
+.header__centremob--menu a {
+    text-decoration: none;
     color: var(--primary-light);
 }
 
@@ -99,10 +112,28 @@
     width: 20%;
     text-align: center;}
 .header__centremob--branches p {
-    text-decoration: none;
+    font-size: 0.8rem;
     margin: 0;
     padding: 0;}
 .header__centremob--branches a {
     text-decoration: none;
     color: var(--primary-light);
     }
+
+/* Logo (Mobile) */
+.header__centremob--logo {
+    
+}
+.header__centremob--logo img {
+    width: 150px;
+    padding: 0 2rem;
+}
+
+/* Sign in (Mobile) */
+.header__centremob--signin {
+    font-size: 0.8rem;
+}
+.header__centremob--signin a {
+    text-decoration: none;
+    color: var(--primary-light);
+}
