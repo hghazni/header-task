@@ -14,4 +14,11 @@ $(document).ready(function() {
     $(".dropdown-nav__wrapper").mouseleave(function(){
         $(".dropdown-nav__wrapper").delay(70).fadeOut();
     })
+
+    /* Prevent Right Click from hiding the dropdown. Mouse leave is being triggered due to a Chrome bug. Right click is being disabled on the dropdown menu for now (not a great solution). 
+    
+    At http://selcobw.com you can see the same bug cancelling the dropdown menu there too but it's slightly more delayed.*/ 
+    $( ".dropdown-nav__wrapper" ).on("contextmenu",function(){
+        return false;
+     }); 
 });
