@@ -48,9 +48,11 @@
     font-size: 0.9rem;
 }}
 
-.menu__item span { padding-right: 1rem }
-.menu__item:first-of-type,.menu__item:hover > .fa-caret-down.menu {
+.menu__item svg.menu {
     margin: 0;
+    padding: 0 1rem;}
+
+.menu__item:first-of-type,.menu__item:hover > .fa-caret-down.menu {
     transform: rotate(180deg);
     transition-delay: 0.5s;}
 
