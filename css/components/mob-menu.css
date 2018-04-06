@@ -65,7 +65,7 @@
     flex-flow: row;}
 
 .mobile-menu__products .col:nth-of-type(1) { width: 90% }
-.mobile-menu__products .col:nth-of-type(2) { 
+.mobile-menu__products .col:nth-of-type(2) {
     width: 10%; 
     justify-content: center; 
     display: flex; }
@@ -79,7 +79,7 @@
     font-size: 1rem;
     color: white;}
     
-.mobile-menu__list li { 
+.mobile-menu__list li {
     border-right: solid 1px var(--primary);
     border-bottom: solid 1px var(--primary);
     padding: 0.5rem; }
