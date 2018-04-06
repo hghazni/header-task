@@ -9,8 +9,7 @@
     max-width: 1200px;
     left: 50%;
     -webkit-transform: translateX(-50%);
-    transform: translateX(-50%)
-}
+    transform: translateX(-50%)}
 
 .dropdown-nav {
     font-family: 'PT Sans', sans-serif;
@@ -18,8 +17,7 @@
     flex-flow: row;
     max-width: 1200px;
     padding: 0 5% 0 0;
-    justify-content: space-between;
-}
+    justify-content: space-between;}
 
 .dropdown-nav__col > li { padding: 0.5rem 0; }
 
@@ -30,8 +28,7 @@
     list-style-type: none;
     text-decoration: none;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
+    -moz-osx-font-smoothing: grayscale;}
 
 .dropdown-nav__col > li > a:hover { color: var(--secondary); }
 
