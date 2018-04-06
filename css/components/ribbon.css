@@ -9,15 +9,13 @@
     font-weight: 100;
     text-align: center;
     color: white;
-    padding: 0.5rem;
-}
+    padding: 0.5rem;}
 
 /* Ribbon Font Weights */
 .ribbon strong { font-weight: 500; }
 .ribbon__link--normalweight { 
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
+    -moz-osx-font-smoothing: grayscale;}
 
 /* Ribbon link */
 .ribbon__link { 

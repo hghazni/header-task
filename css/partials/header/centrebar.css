@@ -12,39 +12,32 @@
     @media (max-width: 770px) {
     .header__centrebar { justify-content: center; }}
     @media (max-width: 900px) {
-    .header__centrebar { display: none;  }
-}
+    .header__centrebar { display: none;  
+}}
 
 .header__centrebar--selco-logo img {
     width: 200px;
-    padding: 0 1rem;
-}
+    padding: 0 1rem;}
 
 .header__branches-sign-in {
     display: flex;
     flex-flow: row;
-    margin: 0 1rem 0 auto;
-}
+    margin: 0 1rem 0 auto;}
 
 .header__branches, .header__sign-in {
     display: flex;
     flex-flow: column;
     align-items: center;
     padding: 0.75rem;
-    font-family: 'PT Sans', sans-serif;
-}
+    font-family: 'PT Sans', sans-serif;}
 
 .fa-map-marker-alt.branches { font-size: 2rem; }
 .fas,.fa-lock.sign-in { padding-bottom: 5px; }
-
-.header__branches,.header__sign-in:hover {
-    cursor: pointer;
-}
+.header__branches,.header__sign-in:hover { cursor: pointer; }
 
 .branches__link {
     color: var(--primary);
-    text-decoration: none;
-}
+    text-decoration: none;}
 
 .header__sign-in {
     background-color: var(--primary-light);
@@ -54,15 +47,13 @@
     padding-bottom: 1rem;
     color: white;
     width: 80px;
-    height: 35px;
-}
+    height: 35px;}
 
 .sign-in__link {
     color: white;
     text-decoration: none;
     font-size: 1.1rem;
-    text-transform: uppercase;
-}
+    text-transform: uppercase;}
 
 /*==== Mobile ====*/
 
@@ -93,7 +84,7 @@
     @media (max-width: 400px) {
     .header__centremob {
     grid-template-columns: 1fr 1fr 10.5fr 3fr;
-    }}
+}}
 
 /* Hamburger Menu */
 .header__centremob--menu {
@@ -108,8 +99,7 @@
     padding: 0;}
 .header__centremob--menu a {
     text-decoration: none;
-    color: var(--primary-light);
-}
+    color: var(--primary-light);}
 
 /* Branches (Mobile) */
 .header__centremob--branches {
@@ -122,8 +112,7 @@
     padding: 0;}
 .header__centremob--branches a {
     text-decoration: none;
-    color: var(--primary-light);
-    }
+    color: var(--primary-light);}
 
 /* Logo (Mobile) */
 .header__centremob--logo img {
@@ -135,18 +124,10 @@
     @media (max-width: 400px) {
     .header__centremob--logo img {
     width: 80px;
-    }}
+}}
 
 /* Sign in (Mobile) */
-.header__centremob--signin {
-    font-size: 0.8rem;
-}
-.header__centremob--signin a {
-    text-decoration: none;
-    color: var(--primary-light);}
-.header__centremob--signin p {
-    margin: 0.1rem 0;
-    }
-.fas.fa-lock,.mobsign-in {
-    font-size: 1rem;
-}
+.header__centremob--signin { font-size: 0.8rem; }
+.header__centremob--signin a { text-decoration: none; color: var(--primary-light);}
+.header__centremob--signin p { margin: 0.1rem 0; }
+.fas.fa-lock,.mobsign-in { font-size: 1rem; }

@@ -12,9 +12,7 @@
 
 .header__delivery--info {
     display: flex;
-    flex-flow: row;
- }
-
+    flex-flow: row;}
     @media (max-width: 600px) {
     .header__delivery--info span {
     display: none;
@@ -35,15 +33,13 @@
 .fas,.fa-truck.nextday { 
     padding: 0.2rem;
     margin-right: 0.2rem; 
-    font-size: 0.85rem;
-}
+    font-size: 0.85rem;}
 
 /* Click and Collect Icon */
 .clickcollect {
     padding: 0.2rem;
     margin-right: 0.2rem; 
-    font-size: 0.85rem;
-}
+    font-size: 0.85rem;}
 
 .delivery__divider {
     padding: 0 1rem;}

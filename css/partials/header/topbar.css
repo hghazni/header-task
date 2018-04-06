@@ -11,9 +11,7 @@
     display: none;}}
 
 /* Container */
-.header__topbar--bg { 
-    background-color: var(--primary); 
-}
+.header__topbar--bg { background-color: var(--primary); }
 
 /* Category */
 .header__topbar--category { width: 80%; }
@@ -31,20 +29,16 @@
     text-transform: uppercase;
     text-decoration: none;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
+    -moz-osx-font-smoothing: grayscale;}
     
 .category__link.active { 
     background-color: var(--secondary);
     font-weight: 600;
     color: var(--primary-light);
     pointer-events: none;
-    cursor: default;
- }
+    cursor: default;}
 
- .category__link:hover {
-    background-color: var(--primary-dark);
- }
+ .category__link:hover { background-color: var(--primary-dark);}
 
 /* Sign-in Register */
 .header__topbar--signin-register { 
@@ -55,12 +49,10 @@
     font-size: 0.9rem;
     text-align: right;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
+    -moz-osx-font-smoothing: grayscale;}
     
 .signin-register__link { 
     color: white;
-    text-decoration: none;
-}
+    text-decoration: none;}
 
 .signin-register__link:hover { text-decoration: underline; }
