@@ -32,10 +32,11 @@
 .menu__item {
     display: flex;
     align-items: center;
+    justify-content: center;
     font-family: 'Norwester', sans-serif;
     font-size: 1.1rem;
     letter-spacing: 1.25px;
-    padding: 0 0.5rem;
+    width: 100%;
     text-transform: uppercase;
     color: white;
     -webkit-font-smoothing: antialiased;
@@ -43,12 +44,13 @@
     height: 2.5rem;}
     @media (max-width:990px) {
     .menu__item {
-    padding:0 1rem;
+    padding:0 0.45rem;
     font-size: 0.9rem;
 }}
 
 .menu__item span { padding-right: 1rem }
 .menu__item:first-of-type,.menu__item:hover > .fa-caret-down.menu {
+    margin: 0;
     transform: rotate(180deg);
     transition-delay: 0.5s;}
 
