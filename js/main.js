@@ -12,17 +12,17 @@ $(document).ready(function() {
         
     // Toggles the dropdown menu
     $(".menu__item:nth-of-type(2)").mouseenter(function(){
-        $('.dropdown-nav__wrapper').delay(70).fadeToggle();
+        $('.dropdown-nav__wrapper').delay(70).stop().fadeToggle().toggleClass('active');
     });
 
     // If mouse leaves dropdown nav wrapper it hides it
     $(".dropdown-nav__wrapper").mouseleave(function(){
-        $(".dropdown-nav__wrapper").delay(70).fadeOut();
+        $(".dropdown-nav__wrapper").delay(70).stop().fadeOut().toggleClass('active');
     })
 
     // If mouse enters the header hide the dropdown menu
     $('.header__centrebar').mouseenter(function(){
-        $('.dropdown-nav__wrapper').delay(70).fadeOut();
+        $('.dropdown-nav__wrapper').delay(70).stop().fadeOut().toggleClass('active');
     });
 
     /* Prevent Right Click from hiding the dropdown. Mouse leave is being triggered due to a Chrome bug. Right click is being disabled on the dropdown menu for now (not a great solution). 
