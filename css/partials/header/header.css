@@ -3,5 +3,11 @@
 ==================================*/
 @media (max-width: 900px) {
     .bg__secondary.header {
-    height: 140px;
+    height: 115px;}}
+    @media (max-width: 600px) {
+    .bg__secondary.header {
+    height: 105px;}}
+    @media (max-width: 400px) {
+    .bg__secondary.header {
+    height: 115px;
 }}

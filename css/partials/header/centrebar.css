@@ -83,8 +83,13 @@
     font-family: 'PT Sans', sans-serif;}
     @media (max-width: 400px) {
     .header__centremob {
+    padding: 0.5rem 0;
     grid-template-columns: 1fr 1fr 10.5fr 3fr;
 }}
+
+.mobmenu__item {
+    font-size: 0.7rem!important;
+}
 
 /* Hamburger Menu */
 .header__centremob--menu {
@@ -93,6 +98,10 @@
     padding: 0 1rem;
     text-align: center;
     color: var(--primary-light);}
+    @media (max-width: 400px) {
+    .header__centremob--menu {
+    padding: 0 0.3rem;
+}}
 .header__centremob--menu p {
     font-size: 0.8rem;
     margin: 0;
@@ -115,9 +124,13 @@
     color: var(--primary-light);}
 
 /* Logo (Mobile) */
+.header__centremob--logo {
+    display: block;
+    margin: 0 auto;
+    width: 100px;}
+
 .header__centremob--logo img {
-    width: 150px;
-    padding: 0 2rem;}
+    width: 150px;}
     @media (max-width: 600px) {
     .header__centremob--logo img {
     width: 100px;}}
