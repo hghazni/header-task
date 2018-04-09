@@ -26,10 +26,6 @@
     border: 3px solid var(--primary-light);
     border-radius: 5px;
     min-width: 300px;}
-    @media (max-width: 400px) {
-    .search__input { 
-
-}}
 
 .search__input::placeholder { font-size: 15px; }
 .search__button[type=submit] { height: 41px; }
