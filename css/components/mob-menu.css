@@ -13,11 +13,13 @@
     transition-duration: 0.5s;}
 
 .mobile-menu__wrapper.active {
+    overflow: auto;
     left: 0;
     transition-duration: 0.5s;}
 
 /* Mobile Menu Overlay */
 .mobile-menu__overlay {
+    overflow: hidden;
     background: black;
     position: absolute;
     top: 0;

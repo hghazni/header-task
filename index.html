@@ -251,14 +251,12 @@
     </div>
 
     <div class="mobile-menu__overlay"></div>
-
-    <script src="js/vendor/jquery-min.js"></script>
-    <script src="js/main.js"></script>
     <!-- Konami has the answer -->
-    <script src="js/easteregg.js"></script>
-
-    <!-- Font Awesome -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
-
+    <script data-main="./js/config" src="./js/vendor/require.js"></script>
+    <script>
+        require(['config'], function() {
+            require(['header', 'easteregg', 'fontawesome'])
+        });
+    </script>
 </body>
 </html>
