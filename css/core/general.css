@@ -11,10 +11,3 @@ body, html {
     max-width: 1200px;
     margin: auto;
 }
-
-/*media query sizes*/
-:root {
-    --mobile-small: 320px;    /*mobile small (iPhone 5)*/
-    --mobile: 400px;    /*mobile small (iPhone 5)*/
-    --tablet: 770px;    /*tablet*/
-}

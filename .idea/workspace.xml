@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ac266bb4-f2dd-432f-90b3-0d9e6693dc34" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/search.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/ribbon.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ribbon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/core/general.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/core/general.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/partials/header/centrebar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/partials/header/centrebar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/partials/header/delivery.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/partials/header/delivery.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/partials/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/partials/header/header.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="centrebar.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="centrebar.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/partials/header/centrebar.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="679">
+              <caret line="198" column="14" selection-start-line="198" selection-start-column="14" selection-end-line="198" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -35,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="search.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/components/search.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+            <state relative-caret-position="465">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -56,8 +55,8 @@
       <file leaf-file-name="ribbon.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/components/ribbon.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+            <state relative-caret-position="434">
+              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -101,8 +100,8 @@
       <file leaf-file-name="general.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/core/general.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+            <state relative-caret-position="217">
+              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -111,9 +110,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.menu__item</find>
-      <find>delivery__link</find>
-      <find>mobmenu__item</find>
       <find>products__col</find>
       <find>dropdown-nav</find>
       <find>dropdown-nav__</find>
@@ -140,6 +136,9 @@
       <find>.search</find>
       <find>var(--mobile)</find>
       <find>tablet</find>
+      <find>header__centrewrapper--logo</find>
+      <find>.ribbon</find>
+      <find>ribbon</find>
       <find>400px</find>
     </findStrings>
   </component>
@@ -159,14 +158,14 @@
         <option value="$PROJECT_DIR$/css/core/fonts.css" />
         <option value="$PROJECT_DIR$/css/components/menu.css" />
         <option value="$PROJECT_DIR$/css/partials/header/topbar.css" />
-        <option value="$PROJECT_DIR$/css/components/ribbon.css" />
         <option value="$PROJECT_DIR$/css/components/mob-menu.css" />
         <option value="$PROJECT_DIR$/css/components/drop-menu.css" />
-        <option value="$PROJECT_DIR$/css/core/general.css" />
         <option value="$PROJECT_DIR$/css/partials/header/header.css" />
         <option value="$PROJECT_DIR$/css/partials/header/delivery.css" />
-        <option value="$PROJECT_DIR$/css/partials/header/centrebar.css" />
         <option value="$PROJECT_DIR$/css/components/search.css" />
+        <option value="$PROJECT_DIR$/css/core/general.css" />
+        <option value="$PROJECT_DIR$/css/components/ribbon.css" />
+        <option value="$PROJECT_DIR$/css/partials/header/centrebar.css" />
       </list>
     </option>
   </component>
@@ -273,12 +272,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523866641053</updated>
-      <workItem from="1523866642167" duration="15680000" />
+      <workItem from="1523866642167" duration="17081000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15680000" />
+    <option name="totallyTimeSpent" value="17081000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1318" y="24" width="1242" height="1411" extended-state="0" />
@@ -404,13 +403,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/components/ribbon.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/core/fonts.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -432,13 +424,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/core/general.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/partials/header/header.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -453,17 +438,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/partials/header/centrebar.css">
+    <entry file="file://$PROJECT_DIR$/css/components/search.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="465">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/components/search.css">
+    <entry file="file://$PROJECT_DIR$/css/core/general.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        <state relative-caret-position="217">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/components/ribbon.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/partials/header/centrebar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="679">
+          <caret line="198" column="14" selection-start-line="198" selection-start-column="14" selection-end-line="198" selection-end-column="14" />
         </state>
       </provider>
     </entry>

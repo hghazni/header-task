@@ -12,6 +12,12 @@
     padding: 0.5rem;
 }
 
+@media (max-width: 550px) {
+    .ribbon {
+        display: none;
+    }
+}
+
 /* Ribbon Font Weights */
 .ribbon strong {
     font-weight: 500;
