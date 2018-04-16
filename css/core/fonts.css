@@ -3,9 +3,16 @@
 ==================================*/
 
 /*=/ Norwester /=*/
-@font-face { 
+@font-face {
     font-family: Norwester;
-    src: url(../../assets/fonts/norwester.otf);}
+    src: url(../../assets/fonts/norwester.otf);
+}
 
 /*=/ PT Sans /=*/
 @import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i');
+
+/*Custom Properties*/
+:root {
+    --ptsans: 'PT Sans', sans-serif;
+    --norwester: 'Norwester', sans-serif;
+}

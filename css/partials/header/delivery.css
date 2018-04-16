@@ -7,48 +7,69 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;}
-
+    flex-wrap: wrap;
+}
 
 .header__delivery--info {
     display: flex;
-    flex-flow: row;}
-    @media (max-width: 600px) {
+    flex-flow: row;
+}
+
+@media (max-width: 600px) {
     .header__delivery--info span {
-    display: none;
-    }}
+        display: none;
+    }
+}
 
 .delivery-link {
     color: var(--primary);
-    font-family: 'PT Sans', sans-serif;
+    font-family: var(--ptsans);
     font-size: 0.9rem;
-    text-decoration: none;}
-    @media (max-width: 1030px) {
-    .delivery-link {
-    display: block;}}
+    text-decoration: none;
+}
 
-.delivery-link:hover { text-decoration: underline; }
+@media (max-width: 1030px) {
+    .delivery-link {
+        display: block;
+    }
+}
+
+.delivery-link:hover {
+    text-decoration: underline;
+}
 
 /* Next delivery icon */
-.fas,.fa-truck.nextday { 
+.nextday {
     padding: 0.2rem;
-    margin-right: 0.2rem; 
-    font-size: 0.85rem;}
+    margin-right: 0.2rem;
+    font-size: 0.85rem;
+}
 
 /* Click and Collect Icon */
 .clickcollect {
     padding: 0.2rem;
-    margin-right: 0.2rem; 
-    font-size: 0.85rem;}
+    margin-right: 0.2rem;
+    font-size: 0.85rem;
+}
 
 .delivery__divider {
-    padding: 0 1rem;}
-    @media (max-width: 1030px) {
+    padding: 0 1rem;
+}
+
+@media (max-width: 1030px) {
     .delivery__divider {
-    display: none;}}
-    @media (max-width: 600px) {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
     .delivery__divider {
-    display: unset;}}
-    @media (max-width: 400px) {
+        display: unset;
+    }
+}
+
+@media (max-width: var(--mobile)) {
     .delivery__divider {
-    display: none;}}
+        display: none;
+    }
+}

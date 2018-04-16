@@ -4,22 +4,30 @@
 
 .ribbon {
     background-color: var(--ribbon-bg);
-    font-family: 'PT Sans', sans-serif;
+    font-family: var(--ptsans);
     font-size: 16px;
     font-weight: 100;
     text-align: center;
     color: white;
-    padding: 0.5rem;}
+    padding: 0.5rem;
+}
 
 /* Ribbon Font Weights */
-.ribbon strong { font-weight: 500; }
+.ribbon strong {
+    font-weight: 500;
+}
+
 .ribbon__text {
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;}
+    -moz-osx-font-smoothing: grayscale;
+}
 
 /* Ribbon link */
-.ribbon__link { 
-    color: white; 
-    text-decoration: unset; }
-    
-.ribbon__link:hover { text-decoration: underline; }
+.ribbon__link {
+    color: white;
+    text-decoration: unset;
+}
+
+.ribbon__link:hover {
+    text-decoration: underline;
+}

@@ -5,23 +5,34 @@
     display: flex;
     flex-flow: row;
     background-color: var(--primary);
-    padding: 1.5rem 1rem 0 1rem;}
-    @media (max-width: 550px) {
-    .header__topbar--category,.header__signin-register {
-    display: none;}}
+    padding: 1.5rem 1rem 0 1rem;
+}
+
+@media (max-width: 550px) {
+    .header__topbar--category, .header__signin-register {
+        display: none;
+    }
+}
 
 /* Container */
-.header__topbar--bg { background-color: var(--primary); }
+.header__topbar--bg {
+    background-color: var(--primary);
+}
 
 /* Category */
-.header__topbar--category { width: 80%; }
-.category-link:first-of-type { margin-right: -3px; }
+.header__topbar--category {
+    width: 80%;
+}
+
+.category-link:first-of-type {
+    margin-right: -3px;
+}
 
 /* Category Link */
 .category-link {
-    color: white; 
-    padding: 0.5rem; 
-    font-family: 'PT Sans', sans-serif;
+    color: white;
+    padding: 0.5rem;
+    font-family: var(--ptsans);
     font-size: 13px;
     font-weight: 600;
     letter-spacing: .05rem;
@@ -29,30 +40,38 @@
     text-transform: uppercase;
     text-decoration: none;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;}
-    
+    -moz-osx-font-smoothing: grayscale;
+}
+
 .category-link.active {
     background-color: var(--secondary);
     font-weight: 600;
     color: var(--primary-light);
     pointer-events: none;
-    cursor: default;}
+    cursor: default;
+}
 
- .category-link:hover { background-color: var(--primary-dark);}
+.category-link:hover {
+    background-color: var(--primary-dark);
+}
 
 /* Sign-in Register */
 .header__signin-register {
-    font-family: 'PT Sans', sans-serif;
+    font-family: var(--ptsans);
     line-height: 30px;
-    width: 20%; 
+    width: 20%;
     color: white;
     font-size: 0.9rem;
     text-align: right;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;}
-    
+    -moz-osx-font-smoothing: grayscale;
+}
+
 .header__signin-register__link {
     color: white;
-    text-decoration: none;}
+    text-decoration: none;
+}
 
-.header__signin-register__link:hover { text-decoration: underline; }
+.header__signin-register__link:hover {
+    text-decoration: underline;
+}

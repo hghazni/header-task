@@ -1,4 +1,4 @@
-/*================================= 
+/*=================================
               GENERAL
 ==================================*/
 
@@ -9,13 +9,12 @@ body, html {
 
 .container {
     max-width: 1200px;
-    margin: auto;}
-
-.post {
+    margin: auto;
 }
 
-.post__link {
-}
-
-.post__post {
+/*media query sizes*/
+:root {
+    --mobile-small: 320px;    /*mobile small (iPhone 5)*/
+    --mobile: 400px;    /*mobile small (iPhone 5)*/
+    --tablet: 770px;    /*tablet*/
 }

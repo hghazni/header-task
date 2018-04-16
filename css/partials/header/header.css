@@ -3,11 +3,18 @@
 ==================================*/
 @media (max-width: 900px) {
     .bg-secondary.header {
-    height: 115px;}}
-    @media (max-width: 600px) {
+        height: 115px;
+    }
+}
+
+@media (max-width: 600px) {
     .bg-secondary.header {
-    height: 105px;}}
-    @media (max-width: 400px) {
+        height: 105px;
+    }
+}
+
+@media (max-width: var(--mobile)) {
     .bg-secondary.header {
-    height: 115px;
-}}
+        height: 115px;
+    }
+}
