@@ -4,8 +4,18 @@
 
 body, html {
     color: var(--primary);
-    margin: 0;}
+    margin: 0;
+}
 
-.container { 
+.container {
     max-width: 1200px;
     margin: auto;}
+
+.post {
+}
+
+.post__link {
+}
+
+.post__post {
+}

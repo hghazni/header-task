@@ -32,7 +32,7 @@
     opacity: 0.7;
     padding-bottom: 0.15rem;}
 
-.menu__item {
+.menu-item {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,23 +46,23 @@
     -moz-osx-font-smoothing: grayscale;
     height: 2.5rem;}
     @media (max-width:990px) {
-    .menu__item {
+    .menu-item {
     padding:0 0.45rem;
     font-size: 0.9rem;
 }}
 
-.menu__item > a {
+.menu-item > a {
     text-decoration: none;
     color: white;}
 
-.menu__item svg.menu {
+.menu-item svg.menu {
     margin: 0;
     padding: 0 1rem;}
 
-.menu__item:first-of-type,.menu__item:hover > .fa-caret-down.menu {
+.menu-item:first-of-type,.menu-item:hover > .fa-caret-down.menu {
     transform: rotate(180deg);
     transition-delay: 0.5s;}
 
-.menu__item:hover {
+.menu-item:hover {
     background-color: var(--primary);
     cursor: pointer;}

@@ -18,16 +18,16 @@
     display: none;
     }}
 
-.delivery__link { 
+.delivery-link {
     color: var(--primary);
     font-family: 'PT Sans', sans-serif;
     font-size: 0.9rem;
     text-decoration: none;}
     @media (max-width: 1030px) {
-    .delivery__link {
+    .delivery-link {
     display: block;}}
 
-.delivery__link:hover { text-decoration: underline; }
+.delivery-link:hover { text-decoration: underline; }
 
 /* Next delivery icon */
 .fas,.fa-truck.nextday { 

@@ -13,7 +13,7 @@
 
 /* Ribbon Font Weights */
 .ribbon strong { font-weight: 500; }
-.ribbon__link--normalweight { 
+.ribbon__text {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;}
 

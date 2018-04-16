@@ -14,7 +14,7 @@ $(document).ready(function() {
     $(".mobile-menu__products--open").hide();
         
     // Toggles the dropdown menu
-    $(".menu__item:nth-of-type(2)").mouseenter(function(){
+    $(".menu-item:nth-of-type(2)").mouseenter(function(){
         $('.dropdown-nav__wrapper').delay(70).stop( true ).fadeToggle().toggleClass('active');
     });
 
@@ -39,7 +39,7 @@ $(document).ready(function() {
 /*===============================
 Mobile Menu
 ================================*/
-$(".header__centremob--menu").click(function() {
+$(".header__centrewrapper--menu").click(function() {
     $(".mobile-menu__wrapper").toggle();
     $(".mobile-menu__overlay").fadeIn();// Overlay Fade In
     $(".mobclose").toggle(); 
@@ -69,4 +69,4 @@ $(".mob-products").click(function() {
     $(".col.caret a").toggleClass("active");
 })
 
-}); // requirejs wrapper
+}); // <-- requirejs wrapper

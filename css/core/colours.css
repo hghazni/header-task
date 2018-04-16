@@ -11,5 +11,5 @@
     --ribbon-bg: #ed3124;
     --delivery-bg: #f3f7fa;}
 
-.bg__primary { background-color: var(--primary); }
-.bg__secondary { background-color: var(--secondary); }
+.bg-primary { background-color: var(--primary); }
+.bg-secondary { background-color: var(--secondary); }
