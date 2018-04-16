@@ -159,7 +159,8 @@
     padding: 0;
 }
 
-.header__centrewrapper--branches a {
+.header__centrewrapper-brancheslink {
+    display: inline-block;
     text-decoration: none;
     color: var(--primary-light);
 }
@@ -205,7 +206,8 @@
     font-size: 0.8rem;
 }
 
-.header__centrewrapper--signin a {
+.header__centrewrapper-signinlink {
+    display: inline-block;
     text-decoration: none;
     color: var(--primary-light);
 }
