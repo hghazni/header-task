@@ -68,7 +68,7 @@
     }
 }
 
-@media (max-width: var(--mobile)) {
+@media (max-width: 400px) {
     .delivery__divider {
         display: none;
     }

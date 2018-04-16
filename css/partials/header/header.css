@@ -13,7 +13,7 @@
     }
 }
 
-@media (max-width: var(--mobile)) {
+@media (max-width: 400px) {
     .bg-secondary.header {
         height: 115px;
     }
