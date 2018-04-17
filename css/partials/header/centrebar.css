@@ -44,21 +44,22 @@
 }
 
 .branches {
+    display: inline-block;
     font-size: 2rem;
-    height: 2.5rem;
-    width: 3rem;
+    height: 2.3rem;
+    width: 100%;
     background-position-x: center;
-    background-size: 2.4rem;
+    background-size: 2.3rem;
     background-repeat: no-repeat;
     background-image: url("../../../assets/images/place.svg");
 }
 
 .sign-in {
     padding-bottom: 22px;
-    height: 15rem;
-    width: 3rem;
+    display: inline-flex;
+    width: 100%;
     background-position-x: center;
-    background-position-y: top;
+    background-position-y: center;
     background-repeat: no-repeat;
     background-size: 1.3rem;
     background-image: url("../../../assets/images/lock.svg");
