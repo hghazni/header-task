@@ -60,12 +60,13 @@
     background-image: url("../../../assets/images/mouse.svg");
 }
 
-.delivery__divider {
+.delivery-divider {
     padding: 0 1rem;
+    color: var(--primary-light);
 }
 
 @media (max-width: 1030px) {
-    .delivery__divider {
+    .delivery-divider {
         display: none;
     }
     .header__delivery--info {
@@ -74,7 +75,7 @@
 }
 
 @media (max-width: 600px) {
-    .delivery__divider {
+    .delivery-divider {
         display: unset;
     }
     .header__delivery--info {
@@ -83,7 +84,7 @@
 }
 
 @media (max-width: 400px) {
-    .delivery__divider {
+    .delivery-divider {
         display: none;
     }
     .header__delivery--info {
