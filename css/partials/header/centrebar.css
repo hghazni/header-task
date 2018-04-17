@@ -138,6 +138,20 @@
     font-size: 0.7rem !important;
 }
 
+.mobmenu {
+    height: 1.4rem;
+    width: 2rem;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: 1.4rem;
+    background-image: url("../../../assets/images/hamburger-menu.svg");
+}
+
 /* Hamburger Menu */
 .header__centrewrapper--menu {
     display: flex;
@@ -206,7 +220,7 @@
         width: 80px;
         position: absolute;
         margin: auto;
-        top: 5vh;
+        top: 5.5vh;
         left: 50%;
         -webkit-transform: translateX(-50%);
         transform: translateX(-50%)
@@ -216,8 +230,23 @@
 @media (max-width: 400px) {
     .header__centrewrapper--logo img {
         width: 80px;
-        top: 6vh;
+        top: 6.5vh;
     }
+}
+
+/*branches (Mobile) */
+.mobbranches {
+    height: 1.4rem;
+    width: 2rem;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: 1.4rem;
+    background-image: url("../../../assets/images/place.svg");
 }
 
 /* Sign in (Mobile) */
@@ -235,6 +264,14 @@
     margin: 0.1rem 0;
 }
 
-.fas.fa-lock, .mobsign-in {
-    font-size: 1rem;
+.mobsign-in {
+    height: 1.4rem;
+    width: 2rem;
+    display: flex;
+    align-items: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: 1.4rem;
+    background-image: url("../../../assets/images/lock-mob.svg");
 }
