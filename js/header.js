@@ -14,7 +14,7 @@ $(document).ready(function() {
     $(".mobilemenu__products--open").hide();
         
     // Toggles the dropdown menu
-    $(".menu-item:nth-of-type(2)").mouseenter(function(){
+    $(".menu-item:nth-of-type(1)").mouseenter(function(){
         $('.dropnav__wrapper').delay(70).stop( true ).fadeToggle().toggleClass('active');
     });
 
