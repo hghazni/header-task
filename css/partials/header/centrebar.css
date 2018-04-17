@@ -31,6 +31,7 @@
 .header__branches-sign-in {
     display: flex;
     flex-flow: row;
+    align-items: center;
     margin: 0 1rem 0 auto;
 }
 
@@ -38,16 +39,29 @@
     display: flex;
     flex-flow: column;
     align-items: center;
-    padding: 0.75rem;
+    padding: 0.5rem 0.75rem 0.75rem 0.75rem;
     font-family: var(--ptsans);
 }
 
-.fa-map-marker-alt.branches {
+.branches {
     font-size: 2rem;
+    height: 2.5rem;
+    width: 3rem;
+    background-position-x: center;
+    background-size: 2.4rem;
+    background-repeat: no-repeat;
+    background-image: url("../../../assets/images/place.svg");
 }
 
-.fas, .fa-lock.sign-in {
-    padding-bottom: 5px;
+.sign-in {
+    padding-bottom: 22px;
+    height: 15rem;
+    width: 3rem;
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    background-size: 1.3rem;
+    background-image: url("../../../assets/images/lock.svg");
 }
 
 .header__branches, .header__sign-in:hover {
@@ -55,25 +69,30 @@
 }
 
 .branches__link {
-    color: var(--primary);
+    color: var(--primary-light);
+    font-size: 0.9rem;
     text-decoration: none;
 }
 
 .header__sign-in {
     background-color: var(--primary-light);
     border: solid 1px var(--primary-light);
-    border-radius: 15px;
-    padding-top: 1.25rem;
+    -webkit-box-shadow: inset 0 -2px 0 rgba(0,0,0,.2);
+    -moz-box-shadow: inset 0 -2px 0 rgba(0,0,0,.2);
+    box-shadow: inset 0 -2px 0 rgba(0,0,0,.2);
+    border-radius: 7px;
+    padding-top: 0.75rem;
     padding-bottom: 1rem;
     color: white;
     width: 80px;
-    height: 35px;
+    height: 30px;
 }
 
 .sign-in__link {
     color: white;
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: 1rem;
+    letter-spacing: 0.05rem;
     text-transform: uppercase;
 }
 

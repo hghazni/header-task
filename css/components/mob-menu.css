@@ -149,11 +149,11 @@
     background-color: var(--primary-medium);
 }
 
-.mobile-menu__products.col, .caret, a {
+.mobile-menu__products.col, .caret, .mob-products {
     transition-duration: 0.1s;
 }
 
-.mobile-menu__products.col, .caret, a.active {
+.mobile-menu__products.col, .caret, .mob-products.active {
     transform: rotate(180deg);
     transition: ease-in-out;
     transition-duration: 0.1s;
