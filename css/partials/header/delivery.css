@@ -16,7 +16,7 @@
 }
 
 @media (max-width: 600px) {
-    .header__delivery--info span {
+    .delivery-link span {
         display: none;
     }
 }
@@ -68,16 +68,25 @@
     .delivery__divider {
         display: none;
     }
+    .header__delivery--info {
+        padding-left: 0.5rem;
+    }
 }
 
 @media (max-width: 600px) {
     .delivery__divider {
         display: unset;
     }
+    .header__delivery--info {
+        padding-left: unset;
+    }
 }
 
 @media (max-width: 400px) {
     .delivery__divider {
         display: none;
+    }
+    .header__delivery--info {
+        padding-left: 0.5rem;
     }
 }

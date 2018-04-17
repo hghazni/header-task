@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ac266bb4-f2dd-432f-90b3-0d9e6693dc34" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/localdelivery.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/localdelivery.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/mouse.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/mouse.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/partials/header/centrebar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/partials/header/centrebar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/partials/header/delivery.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/partials/header/delivery.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,8 +30,8 @@
       <file leaf-file-name="delivery.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/partials/header/delivery.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+            <state relative-caret-position="788">
+              <caret line="78" column="5" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -235,12 +231,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523866641053</updated>
-      <workItem from="1523866642167" duration="23541000" />
+      <workItem from="1523866642167" duration="23867000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23541000" />
+    <option name="totallyTimeSpent" value="23867000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1318" y="24" width="1242" height="1411" extended-state="0" />
@@ -436,8 +432,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/partials/header/delivery.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        <state relative-caret-position="788">
+          <caret line="78" column="5" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
         </state>
       </provider>
     </entry>
