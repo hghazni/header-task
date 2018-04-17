@@ -3,10 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="ac266bb4-f2dd-432f-90b3-0d9e6693dc34" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/drop-menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/drop-menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/mob-menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/mob-menu.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/partials/header/centrebar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/partials/header/centrebar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/partials/header/delivery.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/partials/header/delivery.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/partials/header/topbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/partials/header/topbar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/header.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,14 +18,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="93" column="24" selection-start-line="93" selection-start-column="24" selection-end-line="93" selection-end-column="24" />
+            <state relative-caret-position="254">
+              <caret line="237" column="20" selection-start-line="237" selection-start-column="20" selection-end-line="237" selection-end-column="20" />
               <folding>
                 <element signature="n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mob-menu.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/components/mob-menu.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="31">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="31">
+              <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="drop-menu.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/components/drop-menu.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="31">
+              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -47,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="centrebar.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="centrebar.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/partials/header/centrebar.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="762">
-              <caret line="233" column="14" selection-start-line="233" selection-start-column="14" selection-end-line="233" selection-end-column="14" />
+            <state relative-caret-position="408">
+              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -60,18 +88,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>lock-mob</find>
-      <find>.header__centrewrapper-brancheslink</find>
-      <find>mobbr</find>
-      <find>centrewrapper</find>
-      <find>mobsign-in</find>
-      <find>branches</find>
-      <find>mobbranch</find>
-      <find>.mobmenu</find>
-      <find>fa</find>
-      <find>mobbranches</find>
-      <find>.fa-caret-down.menu</find>
-      <find>caret</find>
       <find>caret-down</find>
       <find>mobmenu</find>
       <find>.search</find>
@@ -79,17 +95,29 @@
       <find>fa-search</find>
       <find>search__icon</find>
       <find>.menu-item</find>
-      <find>mobclose</find>
       <find>search__button</find>
       <find>.bg-secondary.header</find>
       <find>.sign-in</find>
-      <find>sign-in__link</find>
       <find>caretdo</find>
       <find>.branches</find>
-      <find>branches__link</find>
       <find>divider</find>
       <find>header__topbar</find>
       <find>header__centrewrapper--logo</find>
+      <find>.menu--item</find>
+      <find>sign-in__link</find>
+      <find>branches__link</find>
+      <find>dropnav__wrapper</find>
+      <find>header__centrebar--selco-logo</find>
+      <find>dropnav-wrapper</find>
+      <find>branches__mob</find>
+      <find>dropnav__divider</find>
+      <find>.mobile-menu__overlay</find>
+      <find>mobclose</find>
+      <find>mobile-menu__close</find>
+      <find>mobile-menu-wrapper</find>
+      <find>mobile-menu.wrapper</find>
+      <find>mobile-menu__wrapper</find>
+      <find>mobilemenu__products--open</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -107,13 +135,11 @@
         <option value="$PROJECT_DIR$/css/components/drop-menu.css" />
         <option value="$PROJECT_DIR$/css/core/general.css" />
         <option value="$PROJECT_DIR$/css/components/ribbon.css" />
-        <option value="$PROJECT_DIR$/css/components/mob-menu.css" />
         <option value="$PROJECT_DIR$/assets/images/lock.svg" />
         <option value="$PROJECT_DIR$/assets/images/place.svg" />
         <option value="$PROJECT_DIR$/assets/images/mouse.svg" />
         <option value="$PROJECT_DIR$/assets/images/localdelivery.svg" />
         <option value="$PROJECT_DIR$/assets/images/home.svg" />
-        <option value="$PROJECT_DIR$/js/header.js" />
         <option value="$PROJECT_DIR$/assets/images/lock-mob.svg" />
         <option value="$PROJECT_DIR$/assets/images/hamburger-menu.svg" />
         <option value="$PROJECT_DIR$/assets/images/caret_down.svg" />
@@ -122,10 +148,12 @@
         <option value="$PROJECT_DIR$/css/components/menu.css" />
         <option value="$PROJECT_DIR$/css/components/search.css" />
         <option value="$PROJECT_DIR$/css/partials/header/header.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/partials/header/delivery.css" />
         <option value="$PROJECT_DIR$/css/partials/header/topbar.css" />
         <option value="$PROJECT_DIR$/css/partials/header/centrebar.css" />
+        <option value="$PROJECT_DIR$/css/components/mob-menu.css" />
+        <option value="$PROJECT_DIR$/js/header.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -236,12 +264,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523866641053</updated>
-      <workItem from="1523866642167" duration="32102000" />
+      <workItem from="1523866642167" duration="33783000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32102000" />
+    <option name="totallyTimeSpent" value="33783000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1318" y="24" width="1242" height="1411" extended-state="0" />
@@ -254,10 +282,10 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Gulp" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18276973" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18276973" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="Database" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32949308" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
@@ -342,24 +370,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/components/drop-menu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-303">
-          <caret line="58" column="30" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/components/ribbon.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
           <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/components/mob-menu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-140">
-          <caret line="163" column="1" lean-forward="true" selection-start-line="163" selection-start-column="1" selection-end-line="163" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -391,13 +405,6 @@
     <entry file="file://$PROJECT_DIR$/assets/images/caret_down.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="48" column="15" lean-forward="true" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/images/close.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -428,16 +435,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="93" column="24" selection-start-line="93" selection-start-column="24" selection-end-line="93" selection-end-column="24" />
-          <folding>
-            <element signature="n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/partials/header/delivery.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
@@ -454,8 +451,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/partials/header/centrebar.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="762">
-          <caret line="233" column="14" selection-start-line="233" selection-start-column="14" selection-end-line="233" selection-end-column="14" />
+        <state relative-caret-position="408">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/components/drop-menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/components/mob-menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="237" column="20" selection-start-line="237" selection-start-column="20" selection-end-line="237" selection-end-column="20" />
+          <folding>
+            <element signature="n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>

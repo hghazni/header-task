@@ -1,7 +1,7 @@
 /*================================= 
           DROPDOWN MENU
 ==================================*/
-.dropnav__wrapper {
+.dropnav-wrapper {
     background-color: var(--primary);
     display: block;
     position: absolute;
@@ -40,7 +40,7 @@
 }
 
 /* Dropdown divider */
-.dropnav__divider {
+.dropnav-divider {
     background-color: var(--primary-light);
     position: absolute;
     left: 4vw;
@@ -49,7 +49,7 @@
 }
 
 @media (min-width: 1200px) {
-    .dropnav__divider {
+    .dropnav-divider {
         display: none;
     }
 }
