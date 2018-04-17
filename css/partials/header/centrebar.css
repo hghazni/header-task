@@ -219,9 +219,10 @@
 @media (max-width: 550px) {
     .header__centrewrapper--logo img {
         width: 80px;
+        padding-left: 1rem;
         position: absolute;
         margin: auto;
-        top: 2.5vh;
+        top: 1.25rem;
         left: 50%;
         -webkit-transform: translateX(-50%);
         transform: translateX(-50%)
@@ -231,7 +232,7 @@
 @media (max-width: 400px) {
     .header__centrewrapper--logo img {
         width: 80px;
-        top: 3.5vh;
+        top: 1.8rem;
     }
 }
 
