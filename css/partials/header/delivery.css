@@ -22,7 +22,7 @@
 }
 
 .delivery-link {
-    color: var(--primary);
+    color: var(--primary-light);
     font-family: var(--ptsans);
     font-size: 0.9rem;
     text-decoration: none;
@@ -40,16 +40,24 @@
 
 /* Next delivery icon */
 .nextday {
-    padding: 0.2rem;
     margin-right: 0.2rem;
-    font-size: 0.85rem;
+    width: 1rem;
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    background-size: 1.2rem;
+    background-image: url("../../../assets/images/localdelivery.svg");
 }
 
 /* Click and Collect Icon */
 .clickcollect {
-    padding: 0.2rem;
     margin-right: 0.2rem;
-    font-size: 0.85rem;
+    width: 1rem;
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    background-size: 1rem;
+    background-image: url("../../../assets/images/mouse.svg");
 }
 
 .delivery__divider {
