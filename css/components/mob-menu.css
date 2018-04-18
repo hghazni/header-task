@@ -2,7 +2,7 @@
             MOBILE MENU
 ==================================*/
 .mobile-menu-wrapper {
-    /* display: none; */
+    display: none;
     position: absolute;
     left: -100%;
     top: 0;
@@ -14,6 +14,7 @@
 }
 
 .mobile-menu-wrapper.active {
+    display: block;
     overflow: auto;
     left: 0;
     transition-duration: 0.5s;
@@ -21,6 +22,7 @@
 
 /* Mobile Menu Overlay */
 .mobile-menu-overlay {
+    display: none;
     overflow: hidden;
     background: black;
     position: absolute;
@@ -184,6 +186,11 @@
     border-right: solid 1px var(--primary);
     border-bottom: solid 1px var(--primary);
     width: 99.5%;
+}
+
+/*Products drop down menu list*/
+.mobilemenu-products-open {
+    display: none;
 }
 
 /* bottom list */

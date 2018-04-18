@@ -5,14 +5,6 @@ define(['jquery'], function($){
 Desktop Dropdown Menu
 ================================*/
 $(document).ready(function() {
-    // Hides menu(s) on document load
-    $(".dropnav-wrapper").hide();
-    $(".mobile-menu-wrapper").hide();
-        // Hides Mobile Overlay background
-        $(".mobile-menu-overlay").hide();
-    // Hides Products Menu
-    $(".mobilemenu-products-open").hide();
-        
     // Toggles the dropdown menu
     $(".menu-item:nth-of-type(1)").mouseenter(function(){
         $('.dropnav-wrapper').delay(70).stop( true ).fadeToggle().toggleClass('active');

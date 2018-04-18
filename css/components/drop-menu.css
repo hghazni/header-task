@@ -3,7 +3,7 @@
 ==================================*/
 .dropnav-wrapper {
     background-color: var(--primary);
-    display: block;
+    display: none;
     position: absolute;
     width: 100%;
     max-width: 1200px;
