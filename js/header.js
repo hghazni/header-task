@@ -13,7 +13,7 @@ $(document).ready(function() {
     // If mouse leaves dropdown nav wrapper it hides it
     $(".dropnav-wrapper").mouseleave(function(){
         $(".dropnav-wrapper").delay(70).stop( true ).fadeOut().toggleClass('active');
-    })
+    });
 
     // If mouse enters the header hide the dropdown menu
     $('.header__centrebar').mouseenter(function(){
@@ -36,7 +36,7 @@ $(".header__centrewrapper--menu").click(function() {
     $(".mobile-menu-overlay").fadeIn();// Overlay Fade In
     $(".mobclose").toggle(); 
     $(".mobile-menu-wrapper").toggleClass("active");
-})
+});
 
 // Close Button
 $(".mobile-menu-close-btn").click(function() {
@@ -44,7 +44,7 @@ $(".mobile-menu-close-btn").click(function() {
     $(".mobile-menu-overlay").fadeOut(); // Overlay Fade
     $(".mobclose").toggle();
     $(".mobile-menu-wrapper").removeClass("active");
-})
+});
 
 // Close Overlay On Click
 $(".mobile-menu-overlay").click(function(){
@@ -55,10 +55,10 @@ $(".mobile-menu-overlay").click(function(){
 });
 
 // Products Button
-$(".mob-products").click(function() {
-    $(".mobilemenu-products-open").toggle();
+$(".navitem.products").click(function() {
+    $(".mobilemenu-products-open").toggleClass('active');
     $(".col.caret").toggleClass("active");
     $(".col.caret a").toggleClass("active");
-})
+});
 
 }); // <-- requirejs wrapper
